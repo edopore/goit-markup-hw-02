@@ -69,6 +69,11 @@ a:link {
 .address li a {
   color: var(--desc-font-color);
 }
+.address li a:hover {
+  color: var(--blue-font-color);
+  background-color: transparent;
+  text-decoration: none;
+}
 /*portfolio*/
 .btn-filter .btn-lst {
   background-color: var(--nav-bg-color);
